@@ -297,6 +297,7 @@ function login(){
     loginUser.value === localStorage.getItem("username") &&
     loginPass.value === localStorage.getItem("password")
   ){
+    window.location.href = "new-1.html";
     loginBox.style.display = "none";
     signupBox.style.display = "none";
     welcomePanel.style.display = "none";
@@ -318,4 +319,5 @@ function showPage(id){
 
 </body>
 </html>
+
 
