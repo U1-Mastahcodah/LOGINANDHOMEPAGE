@@ -11,12 +11,20 @@
   box-sizing:border-box;
   font-family:"Inter",sans-serif;
 }
-
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
 html,body{
   margin:0;
   padding:0;
   height:100%;
-  background:#e7ebf0;
+  background:transparent;
 }
 
 /* NAVBAR */
@@ -321,6 +329,7 @@ function showPage(id){
 
 </body>
 </html>
+
 
 
 
